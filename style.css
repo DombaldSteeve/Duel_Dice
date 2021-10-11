@@ -1,0 +1,39 @@
+html {
+    background: linear-gradient(90deg, rgb(116, 29, 29), rgb(196, 105, 31));
+}
+
+
+.titre {
+    width: 100%;
+    
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.players {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.player1{
+    padding-right: 160px;
+    justify-self: center;
+    font-size: 2rem;
+}
+
+.player2 {
+    font-size: 2rem;
+}
+
+.player1, .player2 {
+    color: aliceblue;
+}
